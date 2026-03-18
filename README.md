@@ -4,7 +4,7 @@
 👣 Sistema de Gestão Social ASP
 Projeto Integrador I - Análise e Desenvolvimento de Sistemas (ADS) 🚀
 
-📖 Sobre o Projeto
+📖 Sobre o Projeto:
 
 O presente projeto foi desenvolvido em parceria com a instituição 
 Ação Social do Planalto (ASP), organização que realiza ações 
@@ -22,7 +22,7 @@ solução tecnológica que auxilie na organização das informações,
 facilitando o controle de atividades, geração de relatórios e 
 gestão administrativa da instituição.
 
-💡 Motivação do Projeto
+💡 Motivação do Projeto:
 
 O projeto surge a partir da necessidade de melhorar a organização 
 e gestão das informações dentro da instituição, permitindo:
@@ -32,7 +32,7 @@ e gestão das informações dentro da instituição, permitindo:
 - Automação da geração de relatórios institucionais
 - Apoio à gestão administrativa e pedagógica
 
-🎯 Objetivos do Projeto
+🎯 Objetivos do Projeto:
 
 Entre os principais objetivos do projeto estão:
 
