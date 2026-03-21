@@ -1,62 +1,72 @@
-# SGS-ASP
+# 👣 Sistema de Gestão Social ASP
+
+**Plataforma para centralização de dados, controle de atividades e automação de relatórios da ONG Ação Social do Planalto.**
+
+> 📄 **Documentação Completa:** Acesse nossa Wiki (ou pasta `/docs`) para ver a documentação central do projeto, incluindo Documento de Visão, Requisitos de Software, Design Thinking e Plano de Projeto [1, 2].
+
+---
+
+## 📖 Índice
+* [Visão Geral](#-visão-geral)
+* [Funcionalidades](#-funcionalidades-esperadas)
+* [Arquitetura e Segurança](#️-arquitetura-e-segurança)
+* [Stack Tecnológico](#️-stack-tecnológico)
+* [Estrutura do Projeto](#-estrutura-do-projeto)
+* [Equipe do Projeto](#-equipe-do-projeto)
+
+---
+
+## 🎯 Visão Geral
+Este projeto é desenvolvido para a **Ação Social do Planalto (ASP)**, uma instituição com 60 anos de história que acolhe crianças e adolescentes em situação de vulnerabilidade social no Distrito Federal [3, 4]. 
+
+Atualmente, a instituição sofre com retrabalho, pois utiliza de forma fragmentada o sistema Bússola Social, planilhas eletrônicas e o Trello, enfrentando limitações de personalização e falhas operacionais [5-7]. O nosso sistema atua como uma **Fonte Única da Verdade (SSoT)**, centralizando informações em uma aplicação web para [8, 9]:
+* Garantir um acompanhamento contínuo e organizado do histórico dos educandos [10].
+* Automatizar a geração de relatórios dinâmicos para prestação de contas [9, 11].
+* Apoiar a tomada de decisão da gestão administrativa e pedagógica através de indicadores [8, 9].
+
+---
+
+## 📊 Funcionalidades Esperadas
+* **Cadastro Integrado:** Registro completo de educandos e do seu núcleo familiar, evitando dados duplicados [12, 13].
+* **Gestão de Oficinas:** Criação de atividades, alocação de turmas e controle diário de presença pelos educadores [14, 15].
+* **Atendimentos e Sigilo:** Registro de acompanhamentos com controle de nível de acesso, garantindo que atendimentos sensíveis da equipe técnica sejam mantidos como confidenciais [16, 17].
+* **Automação de Relatórios:** Geração ágil de relatórios com filtros cruzados (por período, atividade e educador) sem depender de processos manuais [9].
+* **Dashboard de Indicadores:** Visualização clara de métricas como quantidade de atendidos e taxa de ocupação [9].
+
+---
+
+## 🛡️ Arquitetura e Segurança
+Conforme alinhamento técnico para garantir um sistema escalável e seguro [9]:
+* **Banco de Dados Relacional:** Estruturação lógica que conecta o educando, sua família e seu histórico de presença, evitando inconsistências [9].
+* **Segurança da Informação:** Criptografia de senhas, proteção contra injeção de código e registro de *logs* (rastreabilidade de ações) [9].
+* **Controle de Acesso (Perfis):** Níveis de permissão definidos para Administrador, Secretaria, Coordenação, Educadores e Equipe Técnica [18].
+* **Usabilidade:** Interface web simples e intuitiva, com telas limpas e poucos cliques, focando na produtividade da equipe da ASP [9].
+
+---
+
+## 🛠️ Stack Tecnológico
+* **Frontend:** React / Vite / Tailwind CSS *(A definir pela equipe)*
+* **Backend:** Node.js / Express *(A definir pela equipe)*
+* **Banco de Dados:** PostgreSQL (Relacional) [9]
+* **Gestão e Design:** Azure DevOps (Gerenciamento Ágil), GitHub, Miro/Figma [19].
+
+---
 
 
-👣 Sistema de Gestão Social ASP
-Projeto Integrador I - Análise e Desenvolvimento de Sistemas (ADS) 🚀
-
-📖 Sobre o Projeto:
-
-O projeto foi desenvolvido em parceria com a instituição 
-Ação Social do Planalto (ASP), organização que realiza ações 
-socioeducativas voltadas para crianças e adolescentes em situação 
-de vulnerabilidade social no Distrito Federal.
-
-Durante o levantamento de requisitos, foi identificado que a 
-instituição utiliza diferentes ferramentas para registrar dados 
-de educandos, atividades e relatórios institucionais. Entretanto, 
-alguns processos ainda são realizados de forma manual ou com 
-ferramentas limitadas.
-
-Diante disso, este projeto propõe o desenvolvimento de uma 
-solução tecnológica que auxilie na organização das informações, 
-facilitando o controle de atividades, geração de relatórios e 
-gestão administrativa da instituição.
-
-💡 Motivação do Projeto:
-
-O projeto surge a partir da necessidade de melhorar a organização 
-e gestão das informações dentro da instituição, permitindo:
-
-- Melhor controle das atividades realizadas com os educandos
-- Centralização das informações em um único sistema
-- Automação da geração de relatórios institucionais
-- Apoio à gestão administrativa e pedagógica
-
-🎯 Objetivos do Projeto:
-
-Entre os principais objetivos do projeto estão:
-
-- Realizar o levantamento de requisitos da instituição
-- Identificar dificuldades nos processos atuais
-- Propor melhorias tecnológicas
-- Desenvolver um protótipo de sistema de apoio à gestão
-- Melhorar a organização das informações institucionais
-
-📊 Funcionalidades Esperadas
-
-O sistema proposto poderá incluir funcionalidades como:
-
-- Cadastro de educandos
-- Registro de atividades e oficinas
-- Controle de presença
-- Geração automática de relatórios
-- Registro de documentos institucionais
-- Controle de materiais e recursos
-
-👥 Equipe do Projeto
+## 👥 Equipe do Projeto
 
 Nome | Papel
 ---- | ----
 Carlos Emanuel | Product Owner
 Gustavo Augusto | Scrum Master
 Bruno Santos | Desenvolvedor
+
+## 📁 Estrutura do Projeto
+```text
+Projeto-ASP/
+├── docs/                  # Hub de Documentação (Visão, Requisitos, Sprints)
+├── frontend/              # Código fonte da interface web
+├── backend/               # Código fonte da API e regras de negócio
+└── README.md              # Este arquivo
+
+
