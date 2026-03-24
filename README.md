@@ -65,8 +65,6 @@ Bruno Santos | Desenvolvedor
 ```text
 Projeto-ASP/
 ├── docs/                  # Hub de Documentação (Visão, Requisitos, Sprints)
-├── frontend/              # Código fonte da interface web
-├── backend/               # Código fonte da API e regras de negócio
 └── README.md              # Este arquivo
 
 
