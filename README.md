@@ -7,12 +7,12 @@
 ---
 
 ## Índice
-* [Visão Geral](#-visão-geral)
-* [Funcionalidades](#-funcionalidades-esperadas)
-* [Arquitetura e Segurança](#️-arquitetura-e-segurança)
-* [Stack Tecnológico](#️-stack-tecnológico)
-* [Estrutura do Projeto](#-estrutura-do-projeto)
-* [Equipe do Projeto](#-equipe-do-projeto)
+* [Visão Geral](#visão-geral)
+* [Funcionalidades](#funcionalidades-esperadas)
+* [Arquitetura e Segurança](#arquitetura-e-segurança)
+* [Stack Tecnológico](#stack-tecnológico)
+* [Estrutura do Projeto](#estrutura-do-projeto)
+* [Equipe do Projeto](#equipe-do-projeto)
 
 ---
 
@@ -52,7 +52,6 @@ Conforme alinhamento técnico para garantir um sistema escalável e seguro:
 
 ---
 
-
 ## Equipe do Projeto
 
 Nome | Papel
@@ -61,10 +60,9 @@ Carlos Emanuel | Product Owner
 Gustavo Augusto | Scrum Master
 Bruno Santos | Desenvolvedor
 
-## 📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto <a name="estrutura-do-projeto"></a>
+
 ```text
 Projeto-ASP/
 ├── docs/                  # Hub de Documentação (Visão, Requisitos, Sprints)
 └── README.md              # Este arquivo
-
-
