@@ -1,9 +1,9 @@
 # Sistema de Gestão Social ASP 
-# Read.me Versão 1.0 - Atualizado: 25/03/2026 - 10:50
+Read.me Versão 1.0 - Atualizado: 25/03/2026 - 10:50
 
 **Plataforma para centralização de dados, controle de atividades e automação de relatórios da ONG Ação Social do Planalto.**
 
-> 📄 **Documentação Completa:** Acesse nossa [Wiki](https://github.com/carlosEmanuelSS/SGS-ASP/wiki) e o [Docs] (https://github.com/carlosEmanuelSS/SGS-ASP/tree/main/Docs) para ver a documentação central do projeto, incluindo Documento de Visão, Requisitos de Software, Design Thinking e Plano de Projeto.
+> 📄 **Documentação Completa:** Acesse nossa [Wiki](https://github.com/carlosEmanuelSS/SGS-ASP/wiki) ou [Docs](https://github.com/carlosEmanuelSS/SGS-ASP/tree/main/Docs) para ver a documentação central do projeto, incluindo Documento de Visão, Requisitos de Software, Design Thinking e Plano de Projeto.
 
 ---
 
