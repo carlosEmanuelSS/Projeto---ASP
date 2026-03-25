@@ -3,7 +3,7 @@
 
 **Plataforma para centralização de dados, controle de atividades e automação de relatórios da ONG Ação Social do Planalto.**
 
-> 📄 **Documentação Completa:** Acesse nossa Wiki [Wiki](https://github.com/carlosEmanuelSS/SGS-ASP/wiki) para ver a documentação central do projeto, incluindo Documento de Visão, Requisitos de Software, Design Thinking e Plano de Projeto.
+> 📄 **Documentação Completa:** Acesse nossa [Wiki](https://github.com/carlosEmanuelSS/SGS-ASP/wiki) e o [Docs] (https://github.com/carlosEmanuelSS/SGS-ASP/tree/main/Docs) para ver a documentação central do projeto, incluindo Documento de Visão, Requisitos de Software, Design Thinking e Plano de Projeto.
 
 ---
 
